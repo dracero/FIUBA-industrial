@@ -1,523 +1,399 @@
 {
     "obligatorias": [
         {
-            "nombre": "Análisis Matemático II A",
+            "nombre": "Análisis Matemático II",
             "equivalente": "Análisis Matemático II",
             "creditosExtra": 0
         },
         {
-            "nombre": "Física I A",
-            "equivalente": "",
-            "creditosExtra": 8
+            "nombre": "Física I",
+            "equivalente": "Física de los Sistemas de Partículas",
+            "creditosExtra": 2
         },
         {
-            "nombre": "Algoritmos y Programación I",
-            "equivalente": "Introducción al Desarrollo de Software",
+            "nombre": "Estática y Resistencia de Materiales",
+            "equivalente": "Estática y Resistencia de Materiales",
             "creditosExtra": 0
         },
         {
-            "nombre": "Álgebra II A",
+            "nombre": "Medios de Representación",
+            "equivalente": "Principios de Ingeniería Industrial",
+            "creditosExtra": 0
+        },
+        {
+            "nombre": "Introducción a la Ingeniería Industrial",
+            "equivalente": "Principios de Ingeniería Industrial",
+            "creditosExtra": 0
+        },
+        {
+            "nombre": "Álgebra II",
             "equivalente": "Álgebra Lineal",
             "creditosExtra": 0
         },
         {
-            "nombre": "Física II A",
-            "equivalente": "Física para Informática",
-            "creditosExtra": 4
-        },
-        {
-            "nombre": "Algoritmos y Programación II",
-            "equivalente": "Algoritmos y Estructura de Datos",
-            "creditosExtra": 0
-        },
-        {
-            "nombre": "Probabilidad y Estadística B",
-            "equivalente": "Probabilidad y Estadística",
-            "creditosExtra": 0
-        },
-        {
-            "nombre": "Estructura del Computador",
-            "equivalente": "Organización del Computador",
-            "creditosExtra": 0
-        },
-        {
-            "nombre": "Algoritmos y Programación III",
-            "equivalente": "Paradigmas de Programación",
-            "creditosExtra": 0
-        },
-        {
-            "nombre": "Análisis Numérico I",
-            "equivalente": "Modelación Numérica",
-            "creditosExtra": 2
-        },
-        {
-            "nombre": "Sistemas Operativos",
-            "equivalente": "Sistemas Operativos",
-            "creditosExtra": 0
-        },
-        {
-            "nombre": "Organización de Datos",
-            "equivalente": "Ciencia de Datos",
-            "creditosExtra": 0
-        },
-        {
-            "nombre": "Taller de Programación I",
-            "equivalente": "Taller de Programación",
-            "creditosExtra": 0
-        },
-        {
-            "nombre": "Modelos y Optimización I",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Taller de Programación II",
-            "equivalente": "",
-            "creditosExtra": 4
-        },
-        {
-            "nombre": "Análisis de la Información",
-            "equivalente": "Ingeniería de Software I",
-            "creditosExtra": 0
-        },
-        {
-            "nombre": "Técnicas de Diseño",
-            "equivalente": "Ingeniería de Software II",
-            "creditosExtra": 0
-        },
-        {
-            "nombre": "Base de Datos",
-            "equivalente": "Base de Datos",
-            "creditosExtra": 0
-        },
-        {
-            "nombre": "Introducción a los Sistemas Distribuidos",
-            "equivalente": "Redes",
-            "creditosExtra": 0
-        },
-        {
-            "nombre": "Legislación y Ejercicio Profesional de la Ingeniería en Informática",
-            "equivalente": "",
-            "creditosExtra": 4
-        }
-    ],
-    "orientaciones": [
-        {
-            "nombre": "Distribuidos",
-            "materias": [
-                {
-                    "nombre": "Técnicas de Programación Concurrente",
-                    "equivalente": "Programación Concurrente",
-                    "creditosExtra": 0
-                },
-                {
-                    "nombre": "Sistemas Distribuidos I",
-                    "equivalente": "Sistemas Distribuidos I",
-                    "creditosExtra": 0
-                },
-                {
-                    "nombre": "Taller de Programación III",
-                    "equivalente": "",
-                    "creditosExtra": 6
-                }
-            ]
-        },
-        {
-            "nombre": "Gestión",
-            "materias": [
-                {
-                    "nombre": "Administración y Control de Proyectos Informáticos I",
-                    "equivalente": "Gestión del Desarrollo de Sistemas Informáticos",
-                    "creditosExtra": 0
-                },
-                {
-                    "nombre": "Taller de Desarrollo de Proyectos I",
-                    "equivalente": "",
-                    "creditosExtra": 6
-                },
-                {
-                    "nombre": "Administración y Control de Proyectos Informáticos II",
-                    "equivalente": "",
-                    "creditosExtra": 6
-                },
-                {
-                    "nombre": "Taller de Desarrollo de Proyectos II",
-                    "equivalente": "",
-                    "creditosExtra": 6
-                }
-            ]
-        },
-        {
-            "nombre": "Producción",
-            "materias": [
-                {
-                    "nombre": "Manufactura Integrada por Computadora (CIM) I",
-                    "equivalente": "",
-                    "creditosExtra": 6
-                },
-                {
-                    "nombre": "Sistemas Automáticos de Diagnóstico y Detección de Fallas I",
-                    "equivalente": "",
-                    "creditosExtra": 6
-                },
-                {
-                    "nombre": "Manufactura Integrada por Computadora (CIM) II",
-                    "equivalente": "",
-                    "creditosExtra": 6
-                },
-                {
-                    "nombre": "Sistemas de Soporte para Celdas de Producción Flexibles",
-                    "equivalente": "",
-                    "creditosExtra": 4
-                }
-            ]
-        }
-    ],
-    "electivas": [
-        {
-            "nombre": "Matemática Discreta",
-            "equivalente": "TDA (- 2 créditos)",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Análisis Matemático III A",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Ecuaciones Diferenciales Ordinarias",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Análisis Funcional",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Mecánica Racional",
-            "equivalente": "",
-            "creditosExtra": 4
-        },
-        {
-            "nombre": "Física III D",
-            "equivalente": "",
-            "creditosExtra": 4
-        },
-        {
             "nombre": "Química",
-            "equivalente": "",
-            "creditosExtra": 6
+            "equivalente": "Química Básica",
+            "creditosExtra": 0
         },
         {
-            "nombre": "Estática y Resistencia de Materiales B",
-            "equivalente": "",
-            "creditosExtra": 6
+            "nombre": "Organización Industrial III",
+            "equivalente": "Organización y Dirección Empresaria",
+            "creditosExtra": 0
         },
         {
-            "nombre": "Análisis de Circuitos",
-            "equivalente": "",
-            "creditosExtra": 10
+            "nombre": "Probabilidad",
+            "equivalente": "Probabilidad",
+            "creditosExtra": 0
         },
         {
-            "nombre": "Circuitos Electrónicos I",
-            "equivalente": "",
-            "creditosExtra": 8
+            "nombre": "Microeconomía Aplicada",
+            "equivalente": ["Economía","Desarrollo Económico"],
+            "creditosExtra": 0
         },
         {
-            "nombre": "Laboratorio de Microcomputadoras",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Laboratorio",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Sistemas Digitales",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Teoría de Control I",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Circuitos de Pulsos",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Organización de Computadoras",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Teoría de la Información y Codificación",
-            "equivalente": "",
-            "creditosExtra": 4
-        },
-        {
-            "nombre": "Arquitecturas Paralelas",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Robótica",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Técnica Digital Avanzada",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Procesamiento del Habla",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Procesamiento de Imágenes",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Sistemas Biológicos",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Simulación de Sistemas de Control",
-            "equivalente": "",
-            "creditosExtra": 4
-        },
-        {
-            "nombre": "Redes Neuronales",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Criptografía y Seguridad Informática",
-            "equivalente": "",
-            "creditosExtra":  6
-        },
-        {
-            "nombre": "Sistemas Gráficos",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Señales y Sistemas",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Procesos Estocásticos",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Fundamentos Matemáticos de la Visión en Robótica",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Estructura de las Organizaciones",
-            "equivalente": "EBT2 (si tenes EBT1)",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Información en las Organizaciones",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Modelos y Optimización II",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Estructura Económica Argentina",
-            "equivalente": "EBT1 (si tenes Legal)",
-            "creditosExtra": 4
-        },
-        {
-            "nombre": "Modelos y Optimización III",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Análisis y Resolución de Problemas",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Circuitos de Información en la Empresa",
-            "equivalente": "",
-            "creditosExtra": 4
-        },
-        {
-            "nombre": "Recursos Humanos",
-            "equivalente": "",
-            "creditosExtra": 4
-        },
-        {
-            "nombre": "Ingeniería Económica",
-            "equivalente": "EBT1 (si tenes Legal)",
-            "creditosExtra": 6
+            "nombre": "Macroeconomía y Estructura Económica Argentina",
+            "equivalente": ["Economía","Desarrollo Económico"],
+            "creditosExtra": 0
         },
         {
             "nombre": "Materiales Industriales I",
-            "equivalente": "",
-            "creditosExtra": 6
+            "equivalente": "Materiales y Aplicaciones I",
+            "creditosExtra": 0
         },
         {
-            "nombre": "Lenguajes Formales",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Lenguajes de Programación",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Simulación",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Teoría de Algoritmos I",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Teoría de Algoritmos II",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Teoría de Lenguaje",
-            "equivalente": "",
+            "nombre": "Termodinámica",
+            "equivalente": "Transformación de la Energía",
             "creditosExtra": 4
         },
         {
-            "nombre": "Análisis Numérico II A",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Calidad en Desarrollo de Sistemas",
-            "equivalente": "",
+            "nombre": "Máquinas Térmicas",
+            "equivalente": "Transformación de la Energía",
             "creditosExtra": 4
         },
         {
-            "nombre": "Introducción a los Sistemas Inteligentes",
-            "equivalente": "",
-            "creditosExtra": 6
+            "nombre": "Mecánica de los Fluidos",
+            "equivalente": "Transformación de la Energía",
+            "creditosExtra": 2
         },
         {
-            "nombre": "Técnicas de Producción de Software I",
-            "equivalente": "",
+            "nombre": "Física II",
+            "equivalente": "Electricidad y Magnetismo",
+            "creditosExtra": 2
+        },
+        {
+            "nombre": "Estadística Aplicada I",
+            "equivalente": "Estadística Aplicada",
             "creditosExtra": 4
         },
         {
-            "nombre": "Técnicas de Producción de Software II",
-            "equivalente": "",
+            "nombre": "Estadística Aplicada II",
+            "equivalente": "Estadística Aplicada",
             "creditosExtra": 4
         },
         {
-            "nombre": "Técnicas de Producción de Software III",
-            "equivalente": "",
+            "nombre": "Organización Industrial I",
+            "equivalente": "Gestión Integral de la Cadena de Valor",
             "creditosExtra": 4
         },
         {
-            "nombre": "Taller de Desarrollo de Proyectos III",
-            "equivalente": "",
+            "nombre": "Organización Industrial II",
+            "equivalente": "Gestión Integral de la Cadena de Valor",
             "creditosExtra": 4
         },
         {
-            "nombre": "Organización de la Implantación y el Mantenimiento",
-            "equivalente": "",
-            "creditosExtra": 6
+            "nombre": "Electrotecnia General",
+            "equivalente": "Electrotecnia, Máquinas e Instalaciones Eléctricas",
+            "creditosExtra": 0
         },
         {
-            "nombre": "Modelos de Proceso de Desarrollo",
-            "equivalente": "",
+            "nombre": "Investigación Operativa I",
+            "equivalente": "Investigación Operativa",
             "creditosExtra": 4
         },
         {
-            "nombre": "Evaluación de Proyectos y Manejo de Riesgos",
-            "equivalente": "",
+            "nombre": "Investigación Operativa II",
+            "equivalente": "Investigación Operativa",
             "creditosExtra": 4
         },
         {
-            "nombre": "Técnicas de Programación Concurrente II",
-            "equivalente": "",
+            "nombre": "Gestión de Costos",
+            "equivalente": "Sistemas Contables y Gestión de Costos",
+            "creditosExtra": 0
+        },
+        {
+            "nombre": "Seminario de Ingeniería Industrial IV",
+            "equivalente": "Industrias Digitales",
+            "creditosExtra": 0
+        },
+        {
+            "nombre": "Higiene y Seguridad Industrial",
+            "equivalente": "Higiene y Seguridad",
+            "creditosExtra": 2
+        },
+        {
+            "nombre": "Ingeniería Económica A",
+            "equivalente": "Ingeniería Económica",
+            "creditosExtra": 0
+        },
+        {
+            "nombre": "Industrias I",
+            "equivalente": "Industrias Extractivas",
+            "creditosExtra": 2
+        },
+        {
+            "nombre": "Edificios Industriales",
+            "equivalente": "Proyecto Industrial",
             "creditosExtra": 4
         },
         {
-            "nombre": "Sistemas Distribuidos II",
+            "nombre": "Instalaciones Industriales",
+            "equivalente": "Proyecto Industrial",
+            "creditosExtra": 2
+        },
+        {
+            "nombre": "Ingeniería Legal para Ingeniería Industrial",
+            "equivalente": "Legislación y Ejercicio Profesional",
+            "creditosExtra": 2
+        },
+        {
+            "nombre": "Tesis de Ingeniería Industrial",
+            "equivalente": "Proyecto Final de Ingeniería industrial",
+            "creditosExtra": 1
+        },
+        {
+            "nombre": "Trabajo Profesional de Ingeniería Industrial",
+            "equivalente": "Proyecto Final de Ingeniería Industrial",
+            "creditosExtra": 1
+        },
+        {
+            "nombre": "Industrias II",
+            "equivalente": "Industrias Químicas",
+            "creditosExtra": 1
+        },
+        {
+            "nombre": "Procesos de Manufactura I",
+            "equivalente": "Transformación de Materiales",
+            "creditosExtra": 1
+        },
+        {
+            "nombre": "Procesos de Manufactura II",
+            "equivalente": "Transformación de Materiales",
+            "creditosExtra": 1
+        },
+        {
+            "nombre": "Gestión Ambiental",
+            "equivalente": "Ingeniería Ambiental, Sustentabilidad y Cuidado del Planeta",
+            "creditosExtra": 0
+        },  
+        {
+            "nombre": "Química Aplicada",
             "equivalente": "",
-            "creditosExtra": 4
+            "creditosExtra": 0
         },
         {
-            "nombre": "Sistemas Multimediales",
+            "nombre": "Computación",
             "equivalente": "",
-            "creditosExtra": 4
-        },
-        {
-            "nombre": "Sistemas Automáticos de Diagnóstico y Detección de Fallas II",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Sistemas de Programación no convencional de Robots",
-            "equivalente": "",
-            "creditosExtra": 6
-        },
-        {
-            "nombre": "Seminario de Ingeniería en Informática I",
-            "equivalente": "",
-            "creditosExtra": 3
-        },
-        {
-            "nombre": "Seminario de Ingeniería en Informática II",
-            "equivalente": "",
-            "creditosExtra": 3
-        },
-        {
-            "nombre": "Arquitectura de Software",
-            "equivalente": "Arquitectura de Software",
-            "creditosExtra": 4
-        },
-        {
-            "nombre": "Idioma Inglés",
-            "equivalente": "Exámen Inglés",
-            "creditosExtra": 4
-        },
-        {
-            "nombre": "Idioma Alemán",
-            "equivalente": "",
-            "creditosExtra": 4
-        },
-        {
-            "nombre": "Idioma Francés",
-            "equivalente": "",
-            "creditosExtra": 4
-        },
-        {
-            "nombre": "Idioma Italiano",
-            "equivalente": "",
-            "creditosExtra": 4
-        },
-        {
-            "nombre": "Idioma Portugués",
-            "equivalente": "",
-            "creditosExtra": 4
+            "creditosExtra": 0
         }
-    ]
+
+    ],
+    "orientaciones": [
+    ],
+    "electivas": [
+        {
+          "nombre": "Gesti\u00f3n Financiera y Presupuestaria",
+          "equivalente": "Gesti\u00f3n Financiera",
+          "creditosExtra": 0
+        },
+        {
+          "nombre": "An\u00e1lisis de Casos",
+          "equivalente": "An\u00e1lisis de Casos",
+          "creditosExtra": 0
+        },
+        {
+          "nombre": "Ciencia de Datos para la Toma de Decisiones",
+          "equivalente": "Ciencia de Datos para la Toma de Decisiones",
+          "creditosExtra": 0
+        },
+        {
+          "nombre": "Estad\u00edstica Aplicada Superior",
+          "equivalente": "Estad\u00edstica Aplicada III",
+          "creditosExtra": 0
+        },
+        {
+          "nombre": "Investigaci\u00f3n Operativa Superior",
+          "equivalente": "Investigaci\u00f3n Operativa III",
+          "creditosExtra": 0
+        },
+        {
+          "nombre": "Capital Humano y Comportamiento Organizacional",
+          "equivalente": "Recursos Humanos",
+          "creditosExtra": 0
+        },
+        {
+          "nombre": "Comercializaci\u00f3n de Productos y Servicios",
+          "equivalente": "Comercializaci\u00f3n",
+          "creditosExtra": 0
+        },
+        {
+          "nombre": "Gerenciamiento de la Calidad",
+          "equivalente": "Gesti\u00f3n de Calidad",
+          "creditosExtra": 0
+        },
+        {
+          "nombre": "Inform\u00e1tica para la Gesti\u00f3n de Empresas",
+          "equivalente": "Inform\u00e1tica para la Gesti\u00f3n de Empresas",
+          "creditosExtra": 0
+        },
+        {
+          "nombre": "Log\u00edstica y Supply Chain",
+          "equivalente": "Log\u00edstica",
+          "creditosExtra": 4
+        },
+        {
+          "nombre": "Innovaci\u00f3n y Gesti\u00f3n de Proyectos",
+          "equivalente": "Desarrollo y Gesti\u00f3n de Proyectos",
+          "creditosExtra": -2
+        },
+        {
+          "nombre": "Emprendimientos en Ingenier\u00eda",
+          "equivalente": "Emprendimientos en Ingenier\u00eda",
+          "creditosExtra": 0
+        },
+        {
+          "nombre": "Dise\u00f1o de Producto",
+          "equivalente": "Dise\u00f1o de Productos",
+          "creditosExtra": 0
+        },
+        {
+          "nombre": "Dise\u00f1o de Producto Digital",
+          "equivalente": "",
+          "creditosExtra": 0
+        },
+        {
+          "nombre": "Ingenier\u00eda y desarrollo de Envases y Embalajes",
+          "equivalente": "Ingenier\u00eda y desarrollo de Envases y Embalajes",
+          "creditosExtra": 0
+        },
+        {
+          "nombre": "Agroindustria y Bioeconom\u00eda",
+          "equivalente": "",
+          "creditosExtra": 0
+        },
+        {
+          "nombre": "Biopol\u00edmeros e Industrias Pl\u00e1sticas",
+          "equivalente": "Industrias Pl\u00e1sticas",
+          "creditosExtra": 3
+        },
+        {
+          "nombre": "Industria Automotriz",
+          "equivalente": "Industria Automotriz",
+          "creditosExtra": 2
+        },
+        {
+          "nombre": "Industrias de Celulosa y Papel",
+          "equivalente": "Industrias de Celulosa y Papel",
+          "creditosExtra": 1
+        },
+        {
+          "nombre": "Industrias de la Alimentaci\u00f3n",
+          "equivalente": "Industrias de la Alimentaci\u00f3n",
+          "creditosExtra": 4
+        },
+        {
+          "nombre": "Industrias Petrol\u00edferas",
+          "equivalente": "Industrias Petrol\u00edferas",
+          "creditosExtra": 4
+        },
+        {
+          "nombre": "Industrias Textiles",
+          "equivalente": "Industrias Textiles",
+          "creditosExtra": 4
+        },
+        {
+          "nombre": "Mantenimiento e Ingenier\u00eda de Planta",
+          "equivalente": "",
+          "creditosExtra": 4
+        },
+        {
+          "nombre": "Materiales y Aplicaciones II",
+          "equivalente": "Materiales Industriales II",
+          "creditosExtra": 4
+        },
+        {
+          "nombre": "Introducci\u00f3n a la Transici\u00f3n Energ\u00e9tica",
+          "equivalente": "",
+          "creditosExtra": 4
+        },
+        {
+          "nombre": "Energ\u00edas Renovables",
+          "equivalente": "Energ\u00edas Renovables",
+          "creditosExtra": 4
+        },
+        {
+          "nombre": "Uso Eficiente de la Energ\u00eda",
+          "equivalente": "",
+          "creditosExtra": 4
+        },
+        {
+          "nombre": "Fuentes Convencionales en la Transici\u00f3n Energ\u00e9tica",
+          "equivalente": "",
+          "creditosExtra": 4
+        },
+        {
+          "nombre": "Tecnolog\u00edas Emergentes en la Transici\u00f3n Energ\u00e9tica",
+          "equivalente": "",
+          "creditosExtra": 4
+        },
+        {
+          "nombre": "",
+          "equivalente": "M\u00e9todos Matem\u00e1ticos y Num\u00e9ricos",
+          "creditosExtra": 4
+        },
+        {
+          "nombre": "Electivas/Optativas 1",
+          "equivalente": "F\u00edsica III C",
+          "creditosExtra": 4
+        },
+        {
+          "nombre": "Taller",
+          "equivalente": "Taller",
+          "creditosExtra": 4
+        },
+        {
+          "nombre": "Electivas/Optativas 2",
+          "equivalente": "Conflicto y Negociaci\u00f3n",
+          "creditosExtra": 4
+        },
+        {
+          "nombre": "Electivas/Optativas 3",
+          "equivalente": "Direcci\u00f3n de Manufactura",
+          "creditosExtra": 4
+        },
+        {
+          "nombre": "Electivas/Optativas 4",
+          "equivalente": "Gesti\u00f3n de la Innovaci\u00f3n",
+          "creditosExtra": 4
+        },
+        {
+          "nombre": "Electivas/Optativas 5",
+          "equivalente": "Industrias Petroqu\u00edmicas",
+          "creditosExtra": 4
+        },
+        {
+          "nombre": "Electivas/Optativas 6",
+          "equivalente": "Seminario de Ingenier\u00eda Industrial I",
+          "creditosExtra": 4
+        },
+        {
+          "nombre": "Electivas/Optativas 7",
+          "equivalente": "Seminario de Ingenier\u00eda Industrial II",
+          "creditosExtra": 4
+        },
+        {
+          "nombre": "Electivas/Optativas 8 ",
+          "equivalente": "Seminario de Ingenier\u00eda Industrial III",
+          "creditosExtra": 4
+        }
+      ]
 }

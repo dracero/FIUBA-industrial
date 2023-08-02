@@ -3,26 +3,30 @@
         "nombre": "Análisis Matemático II",
         "equivalencias": [
             {
-                "materias": ["Análisis Matemático II A"],
+                "materias": ["Análisis Matemático II"],
                 "creditos": 0
             }
         ]
     },
     {
-        "nombre": "Algoritmos y Estructura de Datos",
+        "nombre": "Física de los Sistemas de Partículas",
         "equivalencias": [
             {
-                "materias": ["Algoritmos y Programación II"],
-                "creditos": 0
+                "materias": ["Física I"],
+                "creditos": -2
             }
         ]
     },
     {
-        "nombre": "Introducción al Desarrollo de Software",
+        "nombre": "Principios de Ingeniería Industrial",
         "equivalencias": [
             {
-                "materias": ["Algoritmos y Programación I"],
-                "creditos": 0
+                "materias": ["Medios de Representación"],
+                "creditos": -2
+            },
+            {
+                "materias": ["Introducción a la Ingeniería Industrial"],
+                "creditos": -4
             }
         ]
     },
@@ -30,229 +34,269 @@
         "nombre": "Álgebra Lineal",
         "equivalencias": [
             {
-                "materias": ["Álgebra II A"],
+                "materias": ["Álgebra II"],
                 "creditos": 0
             }
         ]
     },
     {
-        "nombre": "Organización del Computador",
+        "nombre": "Química Básica ",
         "equivalencias": [
             {
-                "materias": ["Estructura del Computador"],
+                "materias": ["Química"],
                 "creditos": 0
             }
         ]
     },
     {
-        "nombre": "Paradigmas de Programación",
+        "nombre": "Estática y Resistencia de Materiales",
         "equivalencias": [
             {
-                "materias": ["Algoritmos y Programación III"],
+                "materias": ["Estática y Resistencia de Materiales"],
                 "creditos": 0
             }
         ]
     },
     {
-        "nombre": "Probabilidad y Estadística",
+        "nombre": "Organización y Dirección Empresaria",
         "equivalencias": [
             {
-                "materias": ["Probabilidad y Estadística B"],
+                "materias": ["Organización Industrial III"],
                 "creditos": 0
             }
         ]
     },
     {
-        "nombre": "Teoría de Algoritmos",
+        "nombre": "Economía",
         "equivalencias": [
             {
-                "materias": ["Teoría de Algoritmos I"],
-                "creditos": -6
+                "materias": ["Microeconomía Aplicada"],
+                "creditos": -2
             },
             {
-                "materias": ["Modelos y Optimización I"],
-                "creditos": -6
-            },
-            {
-                "materias": ["Matemática Discreta"],
-                "creditos": -8
+                "materias": ["Macroeconomía y Estructura Económica Argentina"],
+                "creditos": -2
             }
         ]
     },
     {
-        "nombre": "Sistemas Operativos",
+        "nombre": "Desarrollo Económico",
+        "equivalencias":[
+            {
+                "materias": ["Microeconomía Aplicada"],
+                "creditos": -2
+            },
+            {
+                "materias": ["Macroeconomía y Estructura Económica Argentina"],
+                "creditos": -2
+            }
+        ]
+    },
+    {
+        "nombre": "Probabilidad",
         "equivalencias": [
             {
-                "materias": ["Sistemas Operativos"],
+                "materias": ["Probabilidad"],
                 "creditos": 0
             }
         ]
     },
     {
-        "nombre": "Lenguajes y Compiladores I",
+        "nombre": "Transformación de la Energía",
         "equivalencias": [
             {
-                "materias": ["Lenguajes de Programación"],
-                "creditos": -6
+                "materias": ["Termodinámica"],
+                "creditos": -2
             },
             {
-                "materias": ["Teoría de Lenguaje"],
+                "materias": ["Máquinas Térmicas"],
                 "creditos": -4
             },
             {
-                "materias": ["Lenguajes Formales"],
-                "creditos": -6
+                "materias": ["Mecánica de los Fluidos"],
+                "creditos": -2
             }
         ]
     },
     {
-        "nombre": "Base de Datos",
+        "nombre": "Materiales y Aplicaciones I",
         "equivalencias": [
             {
-                "materias": ["Base de Datos"],
+                "materias": ["Materiales Industriales I"],
                 "creditos": 0
             }
         ]
     },
     {
-        "nombre": "Modelación Numérica",
+        "nombre": "Electricidad y Magnetismo",
         "equivalencias": [
             {
-                "materias": ["Análisis Numérico I"],
+                "materias": ["Física II"],
                 "creditos": 0
             }
         ]
     },
     {
-        "nombre": "Taller de Programación",
+        "nombre": "Estadística Aplicada",
         "equivalencias": [
             {
-                "materias": ["Taller de Programación I"],
-                "creditos": 0
-            }
-        ]
-    },
-    {
-        "nombre": "Ingeniería de Software I",
-        "equivalencias": [
-            {
-                "materias": ["Análisis de la Información"],
-                "creditos": 0
-            }
-        ]
-    },
-    {
-        "nombre": "Ciencia de Datos",
-        "equivalencias": [
-            {
-                "materias": ["Organización de Datos"],
-                "creditos": 0
-            }
-        ]
-    },
-    {
-        "nombre": "Ingeniería de Software II",
-        "equivalencias": [
-            {
-                "materias": ["Técnicas de Diseño"],
-                "creditos": 0
+                "materias": ["Estadística Aplicada I"],
+                "creditos": -4
             },
             {
-                "materias": ["Taller de Programación II"],
+                "materias": ["Estadística Aplicada II"],
                 "creditos": -4
             }
         ]
     },
     {
-        "nombre": "Programación Concurrente",
+        "nombre": "Gestión Integral de la Cadena de Valor",
         "equivalencias": [
             {
-                "materias": ["Técnicas de Programación Concurrente"],
-                "creditos": 0
-            }
-        ]
-    },
-    {
-        "nombre": "Redes",
-        "equivalencias": [
-            {
-                "materias": ["Introducción a los Sistemas Distribuidos"],
-                "creditos": 0
-            }
-        ]
-    },
-    {
-        "nombre": "Física para Informática",
-        "equivalencias": [
-            {
-                "materias": ["Física II A"],
-                "creditos": 0
-            }
-        ]
-    },
-    {
-        "nombre": "Empresas de Base Tecnológica I",
-        "equivalencias": [
-            {
-                "materias": ["Legislación y Ejercicio Profesional de la Ingeniería en Informática", "Ingeniería Económica"],
-                "creditos": -10
+                "materias": ["Organización Industrial I"],
+                "creditos": -4
             },
             {
-                "materias": ["Legislación y Ejercicio Profesional de la Ingeniería en Informática", "Estructura Económica Argentina"],
-                "creditos": -8
+                "materias": ["Organización Industrial II"],
+                "creditos": -4
             }
         ]
     },
     {
-        "nombre": "Gestión del Desarrollo de Sistemas Informáticos",
+        "nombre": "Electrotecnia, Máquinas e Instalaciones Eléctricas",
         "equivalencias": [
             {
-                "materias": ["Administración y Control de Proyectos Informáticos I"],
+                "materias": ["Electrotecnia General"],
                 "creditos": 0
             }
         ]
     },
     {
-        "nombre": "Sistemas Distribuidos I",
+        "nombre": "Investigación Operativa",
         "equivalencias": [
             {
-                "materias": ["Sistemas Distribuidos I"],
-                "creditos": 0
+                "materias": ["Investigación Operativa I"],
+                "creditos": -4
             },
             {
-                "materias": ["Taller de Programación II"],
-                "creditos": -6
+                "materias": ["Investigación Operativa II"],
+                "creditos": -4
             }
         ]
     },
     {
-        "nombre": "Taller de Seguridad Informática",
+        "nombre": "Sistemas Contables y Gestión de Costos",
         "equivalencias": [
             {
-                "materias": ["Criptografía y Seguridad Informática"],
-                "creditos": -6
+                "materias": ["Gestión de Costos"],
+                "creditos": 0
+            }
+        ]
+    },
+    {
+        "nombre": "Industrias Digitales",
+        "equivalencias": [
+            {
+                "materias": ["Seminario de Ingeniería Industrial IV"],
+                "creditos": 0
+            }
+        ]
+    },
+    {
+        "nombre": "Higiene y Seguridad",
+        "equivalencias": [
+            {
+                "materias": ["Higiene y Seguridad Industrial"],
+                "creditos": -2
+            }
+        ]
+    },
+    {
+        "nombre": "Ingeniería Económica",
+        "equivalencias": [
+            {
+                "materias": ["Ingeniería Económica A"],
+                "creditos": 0
+            }
+        ]
+    },
+    {
+        "nombre": "Industrias Químicas",
+        "equivalencias": [
+            {
+                "materias": ["Industrias II"],
+                "creditos": -2
+            }
+        ]
+    },
+    {
+        "nombre": "Transformación de Materiales",
+        "equivalencias": [
+            {
+                "materias": ["Procesos de Manufactura I"],
+                "creditos": -4
             },
             {
-                "materias": ["Organización de Computadoras"],
-                "creditos": -6
+                "materias": ["Procesos de Manufactura II"],
+                "creditos": -4
             }
         ]
     },
     {
-        "nombre": "Empresas de Base Tecnológica II",
+        "nombre": "Ingeniería Ambiental, Sustentabilidad y Cuidado del Planeta",
         "equivalencias": [
             {
-                "materias": ["Estructura de las Organizaciones"],
-                "creditos": -6
-            }
-        ]
-    },
-    {
-        "nombre": "Exámen Inglés",
-        "equivalencias": [
-            {
-                "materias": ["Idioma Inglés"],
+                "materias": ["Gestión Ambiental"],
                 "creditos": 0
+            }
+        ]
+    },
+    {
+        "nombre": "Industrias Extractivas",
+        "equivalencias": [
+            {
+                "materias": ["Industrias I"],
+                "creditos": -6
+            }
+        ]
+    },
+    {
+        "nombre": "Proyecto Industrial",
+        "equivalencias": [
+            {
+                "materias": ["Edificios Industriales"],
+                "creditos": -4
+            },
+            {
+                "materias": ["Instalaciones Industriales"],
+                "creditos": -2
+            }
+        ]
+    },
+    {
+        "nombre": "Legislación y Ejercicio Profesional",
+        "equivalencias": [
+            {
+                "materias": ["Ingeniería Legal para Ingeniería Industrial"],
+                "creditos": -2
+            }
+        ]
+    },
+    {
+        "nombre": "Proyecto Final de Ingeniería industrial",
+        "equivalencias": [
+            {
+                "materias": ["Tesis de Ingeniería Industrial"],
+                "creditos": -1
+            }
+        ]
+    },
+    {
+        "nombre": "Proyecto Final de Ingeniería Industrial",
+        "equivalencias": [
+            {
+                "materias": ["Trabajo Profesional de Ingeniería Industrial"],
+                "creditos": -1
             }
         ]
     }
