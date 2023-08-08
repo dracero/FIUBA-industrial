@@ -116,6 +116,8 @@ function App() {
     setCreditos(creditosDirectos + creditosTransicion);
   }, [creditosDirectos, creditosTransicion]);
 
+  //Esto es una prueba
+
   return (
     <Box sx={{flexGrow: 1}} padding={2}>
       <Grid container sx={{ margin: "0 0 2rem 0" }}>
