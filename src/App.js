@@ -121,7 +121,8 @@ function App() {
       <Grid container sx={{ margin: "0 0 2rem 0" }}>
         <Grid item xs={12} sm="auto">
           <Paper elevation={3} sx={{padding: "1em"}}>
-            <h2>Calculadora transición plan 86 a 2023 Industrial</h2>
+          <img src="logo.png" alt="Logo de la calculadora"></img>
+           <p><h2>Ing. Industrial</h2></p>
             <FormGroup>
               {
                 readOnly ? (
