@@ -4,9 +4,6 @@ import materias_plan86 from "./plan_86.json";
 import materias_plan23 from "./plan_23.json";
 import { useEffect, useState } from 'react';
 import { useMaterias86 } from './utils/useMaterias86';
-import DeleteIcon from '@mui/icons-material/Delete';
-import SnowboardingIcon from '@mui/icons-material/Snowboarding';
-import ShareIcon from '@mui/icons-material/Share';
 import Materia86 from './components/Materia86';
 import Materia23 from './components/Materia23';
 import ShareDialog from './components/ShareDialog';
@@ -119,9 +116,8 @@ function App() {
   //Esto es una prueba
 
   return (
-    <Box sx={{flexGrow: 1}} padding={2}>
-      <Grid container sx={{ margin: "0 0 2rem 0" }}>
-        <Grid item xs={12} sm="auto">
+    <Box >
+      
           <Paper elevation={3} sx={{padding: "1em"}}>
           <img src="logo.png" alt="Logo de la calculadora"></img>
            <p><h2>Ing. Industrial</h2></p>
@@ -137,29 +133,25 @@ function App() {
                     <>
                       <Button
                       variant="contained"
-                      color="primary"
-                      startIcon={<SnowboardingIcon />}
                       sx={{ marginBottom: "1em" }}
                       onClick={seleccionarTodasObligatorias86}
-                    >
+                      color="grey" >                    
                       Aprobar obligatorias
                     </Button>
       
                     <Button
                       variant="contained"
-                      color="error"
-                      startIcon={<DeleteIcon />}
                       sx={{ marginBottom: "1em" }}
                       onClick={limpiarTodo}
+                      color="grey" 
                     >
                       Limpiar todo
                     </Button>
 
                     <Button
                       variant="contained"
-                      color="success"
-                      startIcon={<ShareIcon />}
                       onClick={compartir}
+                      color="grey" 
                     >
                       Compartir
                     </Button>
@@ -169,8 +161,7 @@ function App() {
               <ShareDialog codigo={shareCode} open={shareDialogOpen} onClose={() => setShareDialogOpen(false)} />
             </FormGroup>
           </Paper>
-        </Grid>
-      </Grid>
+       
       <Grid container spacing={3}>
         <Grid item xs={12} md={4}>
           <Paper elevation={3} sx={{padding: "1em", marginBottom: "2em"}}>
