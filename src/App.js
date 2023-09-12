@@ -116,9 +116,13 @@ function App() {
   //Esto es una prueba
 
   return (
-    <Box >
+    <Box sx={{
+      backgroundImage: "url('./fondo.png')",
+      backgroundSize: "cover",
+      backgroundPosition: "center center"
+    }}>
       
-          <Paper elevation={3} sx={{padding: "1em"}}>
+      <Paper elevation={3} sx={{padding: "1em", backgroundColor: "rgba(255, 255, 255, 0)"}}>
           <img src="logo.png" alt="Logo de la calculadora"></img>
            <p><h2>Ing. Industrial</h2></p>
             <FormGroup>
@@ -130,41 +134,25 @@ function App() {
                      En caso de querer modificarlo, ingresa en la <Link href={WEB_URL}>pantalla principal</Link>.
                   </Alert>
                 ) : (
-                    <>
-                      <Button
-                      variant="contained"
-                      sx={{ marginBottom: "1em" }}
-                      onClick={seleccionarTodasObligatorias86}
-                      color="grey" >                    
-                      Aprobar obligatorias
-                    </Button>
-      
-                    <Button
-                      variant="contained"
-                      sx={{ marginBottom: "1em" }}
-                      onClick={limpiarTodo}
-                      color="grey" 
-                    >
-                      Limpiar todo
-                    </Button>
-
-                    <Button
-                      variant="contained"
-                      onClick={compartir}
-                      color="grey" 
-                    >
-                      Compartir
-                    </Button>
-                  </>
-                )
+                  <Grid container spacing={2} justifyContent="center">
+                  <Grid item>
+                    <Button variant="contained" sx={{ marginBottom: "1em" , backgroundColor: "rgb(200, 200, 200)" }} onClick={seleccionarTodasObligatorias86} color="grey">Aprobar obligatorias</Button>
+                  </Grid>
+                  <Grid item>
+                    <Button variant="contained" sx={{ marginBottom: "1em", backgroundColor: "rgb(200, 200, 200)" }} onClick={limpiarTodo} color="grey">Limpiar todo</Button>
+                  </Grid>
+                  <Grid item>
+                    <Button variant="contained" sx={{ marginBottom: "1em", backgroundColor: "rgb(200, 200, 200)" }} onClick={compartir} color="grey">Compartir</Button>
+                  </Grid>
+                </Grid>              
+              )
               }
               <ShareDialog codigo={shareCode} open={shareDialogOpen} onClose={() => setShareDialogOpen(false)} />
             </FormGroup>
-          </Paper>
-       
+          </Paper>      
       <Grid container spacing={3}>
         <Grid item xs={12} md={4}>
-          <Paper elevation={3} sx={{padding: "1em", marginBottom: "2em"}}>
+          <Paper elevation={3} sx={{padding: "1em", marginBottom: "2em", backgroundColor: "rgba(255, 255, 255, 0)"}}>
             <h2>Obligatorias</h2>
             <FormGroup>
               {materias_plan86.obligatorias.map((materia, idx) =>
@@ -179,7 +167,7 @@ function App() {
               )}
             </FormGroup>
           </Paper>
-          <Paper elevation={3} sx={{padding: "1em", marginBottom: "2em"}}>
+          <Paper elevation={3} sx={{padding: "1em", marginBottom: "2em", backgroundColor: "rgba(255, 255, 255, 0)"}}>
             <h2>Orientación</h2>
             {materias_plan86.orientaciones.map((orientacion, idx) =>
               <FormGroup key={orientacion.nombre} sx={{marginBottom: "1em"}}>
@@ -199,7 +187,7 @@ function App() {
           </Paper>
         </Grid>
         <Grid item xs={12} md={4}>
-          <Paper elevation={3} sx={{padding: "1em"}}>
+          <Paper elevation={3} sx={{padding: "1em", backgroundColor: "rgba(255, 255, 255, 0)"}}>
             <h2>Electivas</h2>
             <FormGroup>
               {materias_plan86.electivas.map(materia =>
@@ -216,7 +204,7 @@ function App() {
           </Paper>
         </Grid>
         <Grid item xs={12} md={4}>
-          <Paper sx={{padding: "1em"}}>
+          <Paper sx={{padding: "1em", backgroundColor: "rgba(255, 255, 255, 0)"}}>
             <h2>Plan 2023</h2>
             <FormGroup>
               {materias_plan23.map(materia =>
